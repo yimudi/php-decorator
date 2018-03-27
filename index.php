@@ -6,7 +6,6 @@ require BASEDIR.'/Ymd/Loader.php';
 
 spl_autoload_register('\\Ymd\\Loader::autoload');
 
-
 $canvas = new \Ymd\Decorator\Canvas();
 $canvas->init();
 $canvas->addDecorator(new \Ymd\Decorator\ColorDrawDecorator('blue'));
