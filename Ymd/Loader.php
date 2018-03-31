@@ -9,3 +9,4 @@ class Loader
         require BASEDIR . '/' . str_replace('\\', '/', $class) . '.php';
     }
 }
+
